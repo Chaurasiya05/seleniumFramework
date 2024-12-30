@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumframework.LoginErrorValidationTest">
+      <class name="seleniumframework.LoginTestCase">
         <methods>
           <include name="tearDown"/>
+          <include name="Login"/>
           <include name="launchApplication"/>
-          <include name="loginErrorValiation"/>
         </methods>
-      </class> <!-- seleniumframework.LoginErrorValidationTest -->
+      </class> <!-- seleniumframework.LoginTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
